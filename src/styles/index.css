@@ -1,12 +1,38 @@
+.traffic-light {
+    background-color: black;
+    padding: 10px;
+    display:inline-block;
+    border-radius: 5px;
+}
 
-/* 
+.light {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    
+}
 
-    You can write your own styles here...
+.red {
+    background: red;
+}
+.yellow {
+    background: yellow;
+}
+.green {
+    background: rgb(0, 255, 0);
+}
+.glow {
+    box-shadow: 0px 0px 50px 15px #d7e874;
+}
+.traffic-pole {
+    height: 70px;
+    width: 20px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+}
+.traffic-light-whole {
+    display: flex;
+    justify-content: center;
+}
